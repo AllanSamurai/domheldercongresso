@@ -1,37 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no' />
+    <meta charset='utf-8'>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- <link rel="manifest" href="manifest.json"> -->
+    <style></style>
     <title>Dom Helder II Congresso do Conhecimento</title>
-    <style>
-        body,
-        * {
-            padding: 0;
-            border: 0;
-            margin: 0
-        }
-
-        body {
-            background-color: #001030;
-            /* background-image: url("bg.jpg");
-            background-repeat: no-repeat;
-            background-size:; */
-        }
-
-        img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            height: 99vh;
-        }
-    </style>
+    <script src="playcanvas-stable.min.js"></script>
+    <script>
+        ASSET_PREFIX = "";
+        SCRIPT_PREFIX = "";
+        SCENE_PATH = "802431.json";
+        CONTEXT_OPTIONS = {
+            'antialias': true,
+            'alpha': true,
+            'preserveDrawingBuffer': false,
+            'preferWebGl2': true
+        };
+        SCRIPTS = [ 23051550, 23051549, 22786861, 23049393, 23051795, 23052399, 23052439, 23054428, 23055219 ];
+        CONFIG_FILENAME = "config.json";
+        INPUT_SETTINGS = {
+            useKeyboard: true,
+            useMouse: true,
+            useGamepads: true,
+            useTouch: true
+        };
+        pc.script.legacy = false;
+        PRELOAD_MODULES = [
+        ];
+    </script>
 </head>
-
 <body>
-    <img src="bg.jpg">
+    <script src="__start__.js"></script>
+    <script src="__loading__.js"></script>
 </body>
-
 </html>
